@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "node": "quiz_work",
+      "name": "quiz_work"
+    },
+    {
+      "node": "quiz_fit",
+      "name": "quiz_fit"
+    },
+    {
+      "node": "quiz_highlight",
+      "name": "quiz_highlight"
+    },
+    {
+      "node": "quiz_bodyShape",
+      "name": "quiz_bodyShape"
+    },
+    {
+      "node": "quiz_eyes",
+      "name": "quiz_eyes"
+    },
+    {
+      "node": "quiz_hair",
+      "name": "quiz_hair"
+    },
+    {
+      "node": "quiz_sizes",
+      "name": "quiz_sizes"
+    },
+    {
+      "node": "quiz_measurements",
+      "name": "quiz_measurements"
+    },
+    {
+      "node": "quiz_focus",
+      "name": "quiz_focus"
+    },
+    {
+      "node": "quiz_adventurous",
+      "name": "quiz_adventurous"
+    },
+    {
+      "node": "quiz_styles",
+      "name": "quiz_styles"
+    },
+    {
+      "node": "quiz_prices",
+      "name": "quiz_prices"
+    },
+    {
+      "node": "quiz_avoid",
+      "name": "quiz_avoid"
+    },
+    {
+      "node": "quiz_footwear",
+      "name": "quiz_footwear"
+    },
+    {
+      "node": "quiz_you",
+      "name": "quiz_you"
+    },
+    {
+      "node": "quiz_photos",
+      "name": "quiz_photos"
+    },
+    {
+      "node": "quiz_signUp",
+      "name": "quiz_signUp"
+    }
+  ],
+  "links": [
+    {
+      "source": "quiz_work",
+      "target": "quiz_signUp",
+      "value": 15
+    },
+    {
+      "source": "quiz_work",
+      "target": "quiz_prices",
+      "value": 1
+    },
+    {
+      "source": "quiz_footwear",
+      "target": "quiz_signUp",
+      "value": 1
+    },
+    {
+      "source": "quiz_work",
+      "target": "quiz_avoid",
+      "value": 4
+    },
+    {
+      "source": "quiz_you",
+      "target": "quiz_signUp",
+      "value": 4
+    },
+    {
+      "source": "quiz_signUp",
+      "target": "quiz_signUp",
+      "value": 2
+    },
+    {
+      "source": "quiz_work",
+      "target": "quiz_hair",
+      "value": 1
+    },
+    {
+      "source": "quiz_measurements",
+      "target": "quiz_signUp",
+      "value": 1
+    },
+    {
+      "source": "quiz_work",
+      "target": "quiz_sizes",
+      "value": 1
+    },
+    {
+      "source": "quiz_work",
+      "target": "quiz_work",
+      "value": 1
+    },
+    {
+      "source": "quiz_highlight",
+      "target": "quiz_highlight",
+      "value": 1
+    },
+    {
+      "source": "quiz_eyes",
+      "target": "quiz_sizes",
+      "value": 1
+    },
+    {
+      "source": "quiz_work",
+      "target": "quiz_photos",
+      "value": 2
+    },
+    {
+      "source": "quiz_work",
+      "target": "quiz_fit",
+      "value": 1
+    }
+  ]
+}
